@@ -1,0 +1,83 @@
+#sideBarTodo{
+    /* border: solid .4px gray; */
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+/* Media queries for mobile compatibilty */
+
+@media only screen and (max-width: 800px){
+    #sideBarTodo{
+        
+    position: absolute;
+    background: #000000bd;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    }
+}
+
+
+
+#sideBarDefault{
+    /* border: solid .4px gray; */
+    display: none;
+    /* min-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+
+
+.todoSideBarView{
+    
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.todoSideBarViewHead{
+    display: flex;
+    padding: 20px 4px 4px 4px;
+    border-bottom: solid 2px;
+    background: white;
+
+}
+
+.todoSideBarViewHeadTitle{
+    
+    flex-grow: 1;
+    padding-left: 6px;
+
+}
+
+.todoSideBarViewSteps{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: 8px;
+    background: white;
+
+}
+
+.subTodo{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.subTodo-card{
+    flex-grow: 1;
+    
+}

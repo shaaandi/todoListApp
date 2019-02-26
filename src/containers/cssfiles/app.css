@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
+body {
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+#App{
+    display: flex;
+    justify-content: space-between;
+}
+
+#main{
+    display: flex;
+    flex-direction:column;
+    align-items: stretch;
+    min-width: 70%;
+    padding-bottom: 15px;
+    flex-grow: 1;
+}
+
+#headBar{
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/02/65/07/60578709af35d56.jpg');
+    font-family: 'Special Elite', cursive;
+}
+
+
+#headBar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid .8px gray;
+}
+
+
+
+
+
