@@ -1,4 +1,4 @@
-import { ADD_TODO,PREV_TODO, ADD_SUB_TODO, ADD_SUB_PREV_TODO, TOGGELE_TODO_STATE, TOGGELE_PREV_TODO_STATE, TOGGELE_SUB_TODO_STATE, DELETE_TODO } from "../actionFiles/actionConstants";
+import { ADD_TODO,PREV_TODO, ADD_SUB_TODO, ADD_SUB_PREV_TODO, TOGGELE_TODO_STATE, TOGGELE_PREV_TODO_STATE, TOGGELE_SUB_TODO_STATE, DELETE_TODO, FILTER_LIST } from "../actionFiles/actionConstants";
 
 const initialTodoState = {
     todos : []
@@ -57,6 +57,9 @@ const todoReducer = (state=initialTodoState,action={}) => {
                 return todo
             })
             return {todos : newListSubToggeled}
+        case FILTER_LIST:
+            let filteredList = state.todos.filter(todo => todo.state === false)
+            return {todos : filteredList};
         default:
             return state;
     }

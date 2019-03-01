@@ -1,4 +1,4 @@
-import {ADD_TODO, PREV_TODO, ADD_SUB_TODO, ADD_SUB_PREV_TODO, TOGGELE_TODO_STATE, TOGGELE_SUB_TODO_STATE, DELETE_TODO} from './actionConstants';
+import {ADD_TODO, PREV_TODO, ADD_SUB_TODO, ADD_SUB_PREV_TODO, TOGGELE_TODO_STATE, TOGGELE_SUB_TODO_STATE, DELETE_TODO, FILTER_LIST} from './actionConstants';
 import giveKey from '../hash';
 
 const addTodoDispatch = (data) => ({
@@ -36,6 +36,10 @@ const toggleSubTodoStateDispatch = (data) => ({
     payload : data
 })
 
+const filterListDispatch = (data) => ({
+    type: FILTER_LIST,
+    payload : data
+})
 
 export  function addSubTodo (data) {
     let key = giveKey(data.title);
@@ -102,5 +106,11 @@ export const addSubPrevTodo = (data) => {
     return dispatch => {
             dispatch(addSubPrevTodoDispatch(data))
 
+    }
+}
+
+export const filterList = (data) => {
+   return  dispatch => {
+        dispatch(filterListDispatch(data));
     }
 }

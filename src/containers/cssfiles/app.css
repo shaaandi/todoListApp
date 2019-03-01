@@ -29,11 +29,18 @@ body {
 #headBar{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border-bottom: solid .8px gray;
 }
 
+.filterButton{
+    font-size: medium;
+    font-weight: bold;
+}
 
-
-
-
+@media only screen and (min-width: 800px){
+    .filterButton:hover{
+        color: green;
+        box-shadow: 2px 2px 2px 2px;
+    }
+}
