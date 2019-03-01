@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+/* @import url('https://fonts.googleapis.com/css?family=Special+Elite'); */
 
 
 body {
@@ -22,7 +22,7 @@ body {
 
 #headBar{
     background-color: wheat;
-    font-family: 'Special Elite', cursive;
+    /* font-family: 'Special Elite', cursive; */
 }
 
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nova+Flat');
+/* @import url('https://fonts.googleapis.com/css?family=Nova+Flat'); */
 
 #navBar{
     display: flex;
@@ -15,7 +15,7 @@
 #navBrandName{
     padding: 0 10px;
     font-size: 25px;
-    font-family: 'Nova Flat', cursive;
+    /* font-family: 'Nova Flat', cursive; */
 }
 
 .navButton{
