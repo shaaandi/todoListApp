@@ -1,0 +1,428 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar Testing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavBar />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          id="navLeftBar"
+        >
+          <div
+            className="navBrandIcon"
+          >
+            <FaJenkins
+              size={23}
+            />
+          </div>
+          <div
+            id="navBrandName"
+          >
+            Schedular
+          </div>
+        </div>,
+        <div
+          id="navRightBar"
+        >
+          <button
+            className="navButton"
+          >
+            <FaUserAlt
+              color="white"
+              size={17}
+            />
+          </button>
+          <button
+            className="navButton"
+          >
+            <IoIosSettings
+              color="white"
+              size={17}
+            />
+          </button>
+        </div>,
+      ],
+      "id": "navBar",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="navBrandIcon"
+            >
+              <FaJenkins
+                size={23}
+              />
+            </div>,
+            <div
+              id="navBrandName"
+            >
+              Schedular
+            </div>,
+          ],
+          "id": "navLeftBar",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FaJenkins
+                size={23}
+              />,
+              "className": "navBrandIcon",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "size": 23,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Schedular",
+              "id": "navBrandName",
+            },
+            "ref": null,
+            "rendered": "Schedular",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="navButton"
+            >
+              <FaUserAlt
+                color="white"
+                size={17}
+              />
+            </button>,
+            <button
+              className="navButton"
+            >
+              <IoIosSettings
+                color="white"
+                size={17}
+              />
+            </button>,
+          ],
+          "id": "navRightBar",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FaUserAlt
+                color="white"
+                size={17}
+              />,
+              "className": "navButton",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "white",
+                "size": 17,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <IoIosSettings
+                color="white"
+                size={17}
+              />,
+              "className": "navButton",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "white",
+                "size": 17,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            id="navLeftBar"
+          >
+            <div
+              className="navBrandIcon"
+            >
+              <FaJenkins
+                size={23}
+              />
+            </div>
+            <div
+              id="navBrandName"
+            >
+              Schedular
+            </div>
+          </div>,
+          <div
+            id="navRightBar"
+          >
+            <button
+              className="navButton"
+            >
+              <FaUserAlt
+                color="white"
+                size={17}
+              />
+            </button>
+            <button
+              className="navButton"
+            >
+              <IoIosSettings
+                color="white"
+                size={17}
+              />
+            </button>
+          </div>,
+        ],
+        "id": "navBar",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="navBrandIcon"
+              >
+                <FaJenkins
+                  size={23}
+                />
+              </div>,
+              <div
+                id="navBrandName"
+              >
+                Schedular
+              </div>,
+            ],
+            "id": "navLeftBar",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FaJenkins
+                  size={23}
+                />,
+                "className": "navBrandIcon",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "size": 23,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Schedular",
+                "id": "navBrandName",
+              },
+              "ref": null,
+              "rendered": "Schedular",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="navButton"
+              >
+                <FaUserAlt
+                  color="white"
+                  size={17}
+                />
+              </button>,
+              <button
+                className="navButton"
+              >
+                <IoIosSettings
+                  color="white"
+                  size={17}
+                />
+              </button>,
+            ],
+            "id": "navRightBar",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FaUserAlt
+                  color="white"
+                  size={17}
+                />,
+                "className": "navButton",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "white",
+                  "size": 17,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <IoIosSettings
+                  color="white"
+                  size={17}
+                />,
+                "className": "navButton",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "white",
+                  "size": 17,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

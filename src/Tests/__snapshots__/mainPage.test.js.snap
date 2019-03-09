@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage All Testing MainPage SnapShot Testing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MainPage
+    sideBarState={
+      Object {
+        "prev": false,
+        "prevTodo": Object {},
+      }
+    }
+    todoState={
+      Object {
+        "todos": Array [],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "0",
+    "nodeType": "function",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "0",
+      "nodeType": "function",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    Object {
+      "instance": null,
+      "key": "1",
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            id="main"
+          >
+            <div
+              id="headBar"
+            >
+              <h1>
+                <FaClipboardList />
+                 Tasks 
+              </h1>
+              <button
+                className="stateButton filterButton"
+                onClick={[Function]}
+              >
+                Hide Completed
+              </button>
+            </div>
+            <div
+              id="todoList"
+            >
+              <TodoList
+                todoFunctions={
+                  Object {
+                    "deleteTodo": undefined,
+                    "toggleTodoState": undefined,
+                    "viewSideBar": undefined,
+                  }
+                }
+                todos={Array []}
+              />
+              <Form />
+            </div>
+          </div>,
+          <SideBar
+            prev={false}
+            prevTodo={Object {}}
+          />,
+        ],
+        "id": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                id="headBar"
+              >
+                <h1>
+                  <FaClipboardList />
+                   Tasks 
+                </h1>
+                <button
+                  className="stateButton filterButton"
+                  onClick={[Function]}
+                >
+                  Hide Completed
+                </button>
+              </div>,
+              <div
+                id="todoList"
+              >
+                <TodoList
+                  todoFunctions={
+                    Object {
+                      "deleteTodo": undefined,
+                      "toggleTodoState": undefined,
+                      "viewSideBar": undefined,
+                    }
+                  }
+                  todos={Array []}
+                />
+                <Form />
+              </div>,
+            ],
+            "id": "main",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h1>
+                    <FaClipboardList />
+                     Tasks 
+                  </h1>,
+                  <button
+                    className="stateButton filterButton"
+                    onClick={[Function]}
+                  >
+                    Hide Completed
+                  </button>,
+                ],
+                "id": "headBar",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <FaClipboardList />,
+                      " Tasks ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    " Tasks ",
+                  ],
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Hide Completed",
+                    "className": "stateButton filterButton",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Hide Completed",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <TodoList
+                    todoFunctions={
+                      Object {
+                        "deleteTodo": undefined,
+                        "toggleTodoState": undefined,
+                        "viewSideBar": undefined,
+                      }
+                    }
+                    todos={Array []}
+                  />,
+                  <Form />,
+                ],
+                "id": "todoList",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "todoFunctions": Object {
+                      "deleteTodo": undefined,
+                      "toggleTodoState": undefined,
+                      "viewSideBar": undefined,
+                    },
+                    "todos": Array [],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "addTodo": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "addSubTodo": undefined,
+            "prev": false,
+            "prevTodo": Object {},
+            "toggleSubTodoState": undefined,
+            "toggleTodoState": undefined,
+            "viewSideBar": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

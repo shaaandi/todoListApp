@@ -16,10 +16,6 @@ const addSubTodoDispatch = (data) => ({
     payload : data
 })
 
-const prevSideBarDispatch = (data) => ({
-    type : PREV_TODO,
-    payload: data
-})
 
 const addSubPrevTodoDispatch = (data) => ({
     type : ADD_SUB_PREV_TODO,
@@ -45,8 +41,8 @@ export  function addSubTodo (data) {
     let key = giveKey(data.title);
     let parentKey = data.parentKey
     let state = false;
-    return async function wrapper (dispatch) {
-        await dispatch(addSubTodoDispatch({...data, key, state, parentKey}))
+    return  function  (dispatch) {
+        dispatch(addSubTodoDispatch({...data, key, state, parentKey}))
         dispatch(addSubPrevTodoDispatch({...data, key, state, parentKey}))
     }
 }
@@ -84,30 +80,30 @@ export function addTodo (data) {
 }
 
 export function deleteTodo (data){
-    console.log('affff')
     return dispatch => {
         dispatch(deleteTodoDispatch(data.id))
     }
 }
 
+const prevSideBarDispatch = (data) => ({
+    type : PREV_TODO,
+    payload: data
+})
+
+
 export  const viewSideBar = (data) => {
     return dispatch => {
         if (data.prev){
-            dispatch(prevSideBarDispatch({...data, prev: true}))
+            dispatch(prevSideBarDispatch(data))
         } else {
-            dispatch(prevSideBarDispatch({...data,prev:false}))
+            dispatch(prevSideBarDispatch(data))
         }
         
     }
 }
 
 
-export const addSubPrevTodo = (data) => {
-    return dispatch => {
-            dispatch(addSubPrevTodoDispatch(data))
 
-    }
-}
 
 export const filterList = (data) => {
    return  dispatch => {

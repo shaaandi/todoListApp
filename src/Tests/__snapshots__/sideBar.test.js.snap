@@ -1,0 +1,753 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar Testing Suite SideBar Testing with Prev as False 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SideBar
+    prev={false}
+    prevTodo={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="defaultSideBarView"
+      >
+        <FaCheckDouble
+          size={40}
+        />
+      </div>,
+      "id": "sideBarDefault",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <FaCheckDouble
+          size={40}
+        />,
+        "className": "defaultSideBarView",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "size": 40,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="defaultSideBarView"
+        >
+          <FaCheckDouble
+            size={40}
+          />
+        </div>,
+        "id": "sideBarDefault",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <FaCheckDouble
+            size={40}
+          />,
+          "className": "defaultSideBarView",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "size": 40,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`SideBar Testing Suite SideBar Testing with Prev as True 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SideBar
+    prev={true}
+    prevTodo={
+      Object {
+        "flag": "white",
+        "id": "vsdfgdfkm2432rewfm",
+        "state": false,
+        "steps": Array [],
+        "title": "",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="todoSideBarView"
+      >
+        <div
+          className="todoSideBarViewHead"
+          style={
+            Object {
+              "borderBottom": "solid",
+              "borderBottomColor": "white",
+            }
+          }
+        >
+          <button
+            className="stateButton"
+            id="toggleState"
+            onClick={[Function]}
+          >
+            <FaCircleNotch
+              size={25}
+            />
+          </button>
+          <div
+            className="todoSideBarViewHeadTitle"
+          >
+            
+          </div>
+          <div
+            className="todoSideBarViewHeadFlag"
+          >
+            <FaFlag
+              color="white"
+            />
+          </div>
+          <button
+            className="sideBarCloser stateButton"
+            onClick={[Function]}
+          >
+            <FaWindowClose
+              color="gray"
+              size={20}
+            />
+          </button>
+        </div>
+        <div
+          className="todoSideBarViewSteps"
+        >
+          <SubForm
+            id="vsdfgdfkm2432rewfm"
+          />
+        </div>
+      </div>,
+      "id": "sideBarTodo",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="todoSideBarViewHead"
+            style={
+              Object {
+                "borderBottom": "solid",
+                "borderBottomColor": "white",
+              }
+            }
+          >
+            <button
+              className="stateButton"
+              id="toggleState"
+              onClick={[Function]}
+            >
+              <FaCircleNotch
+                size={25}
+              />
+            </button>
+            <div
+              className="todoSideBarViewHeadTitle"
+            >
+              
+            </div>
+            <div
+              className="todoSideBarViewHeadFlag"
+            >
+              <FaFlag
+                color="white"
+              />
+            </div>
+            <button
+              className="sideBarCloser stateButton"
+              onClick={[Function]}
+            >
+              <FaWindowClose
+                color="gray"
+                size={20}
+              />
+            </button>
+          </div>,
+          <div
+            className="todoSideBarViewSteps"
+          >
+            <SubForm
+              id="vsdfgdfkm2432rewfm"
+            />
+          </div>,
+        ],
+        "className": "todoSideBarView",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="stateButton"
+                id="toggleState"
+                onClick={[Function]}
+              >
+                <FaCircleNotch
+                  size={25}
+                />
+              </button>,
+              <div
+                className="todoSideBarViewHeadTitle"
+              >
+                
+              </div>,
+              <div
+                className="todoSideBarViewHeadFlag"
+              >
+                <FaFlag
+                  color="white"
+                />
+              </div>,
+              <button
+                className="sideBarCloser stateButton"
+                onClick={[Function]}
+              >
+                <FaWindowClose
+                  color="gray"
+                  size={20}
+                />
+              </button>,
+            ],
+            "className": "todoSideBarViewHead",
+            "style": Object {
+              "borderBottom": "solid",
+              "borderBottomColor": "white",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FaCircleNotch
+                  size={25}
+                />,
+                "className": "stateButton",
+                "id": "toggleState",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "size": 25,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "className": "todoSideBarViewHeadTitle",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FaFlag
+                  color="white"
+                />,
+                "className": "todoSideBarViewHeadFlag",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "white",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <FaWindowClose
+                  color="gray"
+                  size={20}
+                />,
+                "className": "sideBarCloser stateButton",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "gray",
+                  "size": 20,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              Array [],
+              <SubForm
+                id="vsdfgdfkm2432rewfm"
+              />,
+            ],
+            "className": "todoSideBarViewSteps",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "addSubTodo": undefined,
+                "id": "vsdfgdfkm2432rewfm",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="todoSideBarView"
+        >
+          <div
+            className="todoSideBarViewHead"
+            style={
+              Object {
+                "borderBottom": "solid",
+                "borderBottomColor": "white",
+              }
+            }
+          >
+            <button
+              className="stateButton"
+              id="toggleState"
+              onClick={[Function]}
+            >
+              <FaCircleNotch
+                size={25}
+              />
+            </button>
+            <div
+              className="todoSideBarViewHeadTitle"
+            >
+              
+            </div>
+            <div
+              className="todoSideBarViewHeadFlag"
+            >
+              <FaFlag
+                color="white"
+              />
+            </div>
+            <button
+              className="sideBarCloser stateButton"
+              onClick={[Function]}
+            >
+              <FaWindowClose
+                color="gray"
+                size={20}
+              />
+            </button>
+          </div>
+          <div
+            className="todoSideBarViewSteps"
+          >
+            <SubForm
+              id="vsdfgdfkm2432rewfm"
+            />
+          </div>
+        </div>,
+        "id": "sideBarTodo",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="todoSideBarViewHead"
+              style={
+                Object {
+                  "borderBottom": "solid",
+                  "borderBottomColor": "white",
+                }
+              }
+            >
+              <button
+                className="stateButton"
+                id="toggleState"
+                onClick={[Function]}
+              >
+                <FaCircleNotch
+                  size={25}
+                />
+              </button>
+              <div
+                className="todoSideBarViewHeadTitle"
+              >
+                
+              </div>
+              <div
+                className="todoSideBarViewHeadFlag"
+              >
+                <FaFlag
+                  color="white"
+                />
+              </div>
+              <button
+                className="sideBarCloser stateButton"
+                onClick={[Function]}
+              >
+                <FaWindowClose
+                  color="gray"
+                  size={20}
+                />
+              </button>
+            </div>,
+            <div
+              className="todoSideBarViewSteps"
+            >
+              <SubForm
+                id="vsdfgdfkm2432rewfm"
+              />
+            </div>,
+          ],
+          "className": "todoSideBarView",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="stateButton"
+                  id="toggleState"
+                  onClick={[Function]}
+                >
+                  <FaCircleNotch
+                    size={25}
+                  />
+                </button>,
+                <div
+                  className="todoSideBarViewHeadTitle"
+                >
+                  
+                </div>,
+                <div
+                  className="todoSideBarViewHeadFlag"
+                >
+                  <FaFlag
+                    color="white"
+                  />
+                </div>,
+                <button
+                  className="sideBarCloser stateButton"
+                  onClick={[Function]}
+                >
+                  <FaWindowClose
+                    color="gray"
+                    size={20}
+                  />
+                </button>,
+              ],
+              "className": "todoSideBarViewHead",
+              "style": Object {
+                "borderBottom": "solid",
+                "borderBottomColor": "white",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <FaCircleNotch
+                    size={25}
+                  />,
+                  "className": "stateButton",
+                  "id": "toggleState",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "size": 25,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                  "className": "todoSideBarViewHeadTitle",
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <FaFlag
+                    color="white"
+                  />,
+                  "className": "todoSideBarViewHeadFlag",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "white",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <FaWindowClose
+                    color="gray"
+                    size={20}
+                  />,
+                  "className": "sideBarCloser stateButton",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "gray",
+                    "size": 20,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                Array [],
+                <SubForm
+                  id="vsdfgdfkm2432rewfm"
+                />,
+              ],
+              "className": "todoSideBarViewSteps",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "addSubTodo": undefined,
+                  "id": "vsdfgdfkm2432rewfm",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

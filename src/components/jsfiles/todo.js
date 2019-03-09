@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
 import { FaCheckCircle, FaCircleNotch, FaWindowClose} from 'react-icons/fa';
-import {viewSideBar,toggleTodoState, deleteTodo} from '../../actionFiles/actions';
 import '../cssfiles/todo.css';
 
 class Todo extends Component {
@@ -36,4 +34,4 @@ class Todo extends Component {
 
 
 
-export default connect(null,{viewSideBar,toggleTodoState, deleteTodo})(Todo);
+export default Todo;

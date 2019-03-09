@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux'
-import { addTodo } from '../../actionFiles/actions';
 import '../cssfiles/form.css';
 
 
@@ -27,8 +25,8 @@ class Form extends Component {
 
     render (){
         return (
-            <form onSubmit={this.submitHandler.bind(this)} className='junk'>
-                 <input type='text' placeholder='+ Add new Todo' name='title' value={this.state.title} onChange={this.changeHandler.bind(this)}></input>
+            <form id='form' onSubmit={this.submitHandler.bind(this)} className='junk'>
+                 <input id='#test' type='text' placeholder='+ Add new Todo' name='title' value={this.state.title} onChange={this.changeHandler.bind(this)}></input>
                  
                  <select className='flagChooser' name='flag' value={this.state.flag} onChange={this.changeHandler.bind(this)}>
                         <option value='white'>White</option>
@@ -46,6 +44,5 @@ class Form extends Component {
 
 
 
-export default connect(null, {addTodo})(Form);
-
+export default Form;
 

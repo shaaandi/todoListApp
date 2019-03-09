@@ -1,42 +1,23 @@
 import React, {Component} from'react';
 import {connect} from 'react-redux';
-import '../cssfiles/app.css';
-import NavBar from '../../components/jsfiles/nav';
-import {FaClipboardList} from 'react-icons/fa';
-import TodoList from '../../components/jsfiles/todoList';
-import SideBar from '../../components/jsfiles/sidebar';
-import Form from '../../components/jsfiles/form';
-import {filterList} from '../../actionFiles/actions';
-
-
-
-
+import {filterList, addTodo,  toggleTodoState, toggleSubTodoState , viewSideBar, addSubTodo, deleteTodo} from '../../actionFiles/actions';
+import MainPage from '../../components/jsfiles/mainPage';
 
 class App extends Component {
-
     render (){
-        return ([
-            <NavBar/>,
-            <div id='App'>
-                <div id='main'>
-                     <div id='headBar'>
-                        <h1><FaClipboardList/> Tasks </h1>
-                        <button className='stateButton filterButton' onClick={() => this.props.filterList()}>Hide Completed</button>
-                     </div>      
-                     <div id='todoList'>
-                        <TodoList/>
-                        <Form />   
-                     </div>          
-                </div>
-                <SideBar />
-            </div>
-             ]
-        )
+        return <MainPage {...this.props}/>
     }
 }
 
+function mapStateToProps (state) {
+    return (
+        {   
+            sideBarState : state.sideBarReducer,
+            todoState : state.todoReducer
+        }
+    )
+}
 
+let obj = {filterList, addTodo,  toggleTodoState, toggleSubTodoState , viewSideBar, addSubTodo, deleteTodo}
 
-
-
-export default connect(null,{filterList})(App);
+export default connect(mapStateToProps,obj)(App);

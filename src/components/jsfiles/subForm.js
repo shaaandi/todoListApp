@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux'
-import { addSubTodo } from '../../actionFiles/actions';
+
 
 
 
@@ -39,14 +38,8 @@ class SubForm extends Component {
 }
 
 
-function mapStateToProps (state) {
-    return ({
-        id : state.sideBarReducer.prevTodo.id,
-        state : state
-    })
-}
 
 
 
 
-export default connect(mapStateToProps, {addSubTodo})(SubForm);
+export default SubForm;

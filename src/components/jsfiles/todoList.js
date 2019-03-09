@@ -1,9 +1,8 @@
 import React from "react";
-import {connect} from 'react-redux';
 import Todo from "./todo.js";
 
-const TodoList = ({todos}) => { 
-    let Todos = todos.map(todo => <Todo {...todo} id={todo.key} steps={todo.steps}/> )
+const TodoList = ({todos, todoFunctions}) => { 
+    let Todos = todos.map(todo => <Todo {...todo} id={todo.key} steps={todo.steps} {...todoFunctions}/> )
     return (
         <div>
             {Todos}
@@ -12,11 +11,6 @@ const TodoList = ({todos}) => {
     )
 }
 
-function mapStateToProps (state){
-    return ({
-        todos : state.todoReducer.todos
-    })
-}
 
 
-export default connect(mapStateToProps,null)(TodoList);
+export default TodoList;
